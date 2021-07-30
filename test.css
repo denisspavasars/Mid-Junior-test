@@ -1,0 +1,138 @@
+/* remove body margins */
+body { margin:0px; }
+input[type='checkbox'] {
+    width:26px;
+    height:26px;
+}
+/* checked checkbox background changed */
+input[type='checkbox']:checked {
+    background: #4066A5;
+	;
+}
+/* styles submit buttons arrow */
+.arrow {
+	opacity: 0.3;
+	float: right;
+	font-size: 30px;
+	color: #131821;
+	background-color: white;
+	
+}
+/* when move cursor on submit turn it gray */
+input[type='submit']:hover {
+	background-color: gray;
+}
+/* when press on e-mail tab no outline */
+input[type='email']:focus {
+	outline: none;
+}
+.fa {
+  	text-align: center;  
+	margin: 0px 5px;  
+	font-size: 30px;  
+	padding: 12px;
+	width: 16px;
+	border-radius: 100px;
+	border-style: solid;
+	border-color: #E3E3E4;
+  }  
+.fa-facebook,
+.fa-instagram,
+.fa-twitter,
+.fa-youtube {  
+	background: white;  
+	color: #131821;
+	opacity: 0.3;
+	border-color: #E3E3E4;
+}  
+/* Keep till minimize */
+@media screen and (min-width: 768px) {
+/* e-mail box design change */
+input[type='email'] {
+	float: left;
+	height: 68px;
+	width: 555px;
+	border-width: 0px;
+	padding-left: 20px;
+}
+/* submit buttons styling */
+#submit {
+	width: 86px;
+	height: 70px;
+	border-width: 0px;
+}
+.ebox {
+
+	width: 663px;
+	height: 70px;
+	border-left-width: 3px;
+	border-left-color: #4066A5;
+	border-block-width: 1px;
+	border-block-color: #E3E3E4;
+	border-right-width: 1px;
+	border-right-color: #E3E3E4;
+	border-style: solid;
+	position: relative;
+	z-index: 99 !important;
+	background-color: white;
+}
+/* set box sizes */
+.box {
+	float: left;
+	width: 680px;
+	border: 0px;
+	text-align: center;
+}
+.logo {
+	float: left;
+}
+/* image styling */
+.flex {
+	position: absolute;
+	max-width: 100%;
+	height: auto;
+}
+/* navigation bar moved from all sides by 100px */
+.topbar {
+	padding: 100px;
+}
+/* bar moved from left side by 100px */
+.paddhl {
+	padding-left: 100px;
+}
+/* text and link style */
+p, a {
+	font-size: 16px;
+	font-family: Arial;
+	color: #6A707B;
+}
+/* link spacing from each other and  */
+a {
+	padding-top: 20px;
+	padding-left: 30px;
+	float: right;
+	text-decoration: none;
+}
+/* heading style */
+h1 {
+	font-size: 32px;
+	padding-top: 130px;
+	font-family: Georgia;
+	color: #131821;
+}
+u {
+	color: black;
+}
+h1, p {
+	width: 400px;
+	margin-left: auto;
+    margin-right: auto;
+	text-align: left;
+}
+hr {
+	width: 400px;
+	color: #E3E3E4;
+	opacity: 0.3;
+	margin-block: 50px;
+}
+}
